@@ -7,4 +7,4 @@ Material complementario para los artículos:
 
 Chile experimentó una convergencia en la opinión publica desde el retorno a la democracia en 1990 hasta mediados de la década del 2000. Pero posteriormente, un proceso de sistemática polarización (tendencia a la agrupación de las preferencias ideológicas) se ha instalado en la opinión pública.
 
-![alt text](https://github.com/jfabregalacoa/polarizacion_opinion/blob/master/ideologia_all_v4.png)
+![Polarización ideológica 1990-2014](https://github.com/jfabregalacoa/polarizacion_opinion/blob/master/ideologia_all_v4.png)
