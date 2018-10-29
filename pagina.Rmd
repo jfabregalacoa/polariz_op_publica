@@ -19,7 +19,7 @@ Chile experimentó una convergencia en la opinión publica desde el retorno a la
 
 La dinámica de la polarización en el Chile contemporáneo se resume en la siguiente figura que aparece en "Polarization and Electoral Incentives":
 
-![Polarización ideológica 1990-2014](https://github.com/jfabregalacoa/polarizacion_opinion/blob/master/ideologia_all_v4.png)
+![Polarización ideológica 1990-2014](ideologia_all_v4.png)
 
 ## Los datos
 
@@ -43,24 +43,24 @@ c <- as.data.frame(c)
 row.names(c) <- c("Encuestado A", "Encuestado B", "Encuestado C")
 colnames(c) <- c("Político X", "Político Y", "Político Z")
 ```
-```{r print tabla, include=FALSE}
-kable(c,format="latex", booktabs=TRUE)
+```{r print tabla, include=TRUE, echo=FALSE}
+kable(c) %>% 
+  kable_styling(latex_options="scale_down")
 ```
 
 De acuerdo a la tabla, el encuestado 2 tienen la misma opinión respecto de los tres políticos, los otros dos encuestados coinciden en relación al político Y, pero manifiestan opiniones contrarias respecto de los otros dos candidatos. Si estas opiniones se explican ideológicamente, entonces, el encuestado B debería estar entre medio de los otros dos encuestados.
 
 ¿Cómo saber si las estimaciones tienen validez externa? Una forma de evaluar si son consistentes o no las estimaciones de ideología obtenidas para los encuestados es inferir las posiciones ideológicas que, a partir de sus evaluaciones, deberían tener los políticos evaluados. Ello porque las posturas relativas de los actores políticos si son de conocimiento público. Es decir, la estimación de las posturas ideológicas de los encuestados será razonable si en base a esas evaluaciones, los políticos de izquierda y centro izquierda son clasificados a la izquierda de los políticos de derecha y centro derecha. Los gráficos siguientes muestran ejemplos de las posiciones ideológicas de actores políticos estimadas a partir de estos supuestos en dos encuestas de la serie. Las posiciones relativas de los actores políticos son consistentes con lo que debería esperarse de acuerdo a sus posturas políticas. 
 
-fig2
-![Ideología estimada ejemplos](https://github.com/jfabregalacoa/polarizacion_opinion/blob/master/fig2.png)
+![Ideología estimada ejemplos](fig2.png)
 
 ### La implementación práctica
-En total se utilizadon cerca de 80.000 observaciones para estimar las posiciones ideológicas. En el artículo $Polarization and Electoral Incentives$ la estimación se realizó mediante el paquete `r emIRT` de R y en el caso de $La Fragilidad de los Consensos$ el análisis se realizó en base al paquete `r basicspace` de R. Ambos paquetes están disponibles en CRAN (https://cran.r-project.org/web/packages/rstan/index.html)
+En total se utilizadon cerca de 80.000 observaciones para estimar las posiciones ideológicas. En el artículo $Polarization$ $and$ $Electoral$ $Incentives$ la estimación se realizó mediante el paquete $emIRT$ de R y en el caso de $La$ $Fragilidad$ $de$ $los$ $Consensos$ el análisis se realizó en base al paquete $basicspace$ de R. Ambos paquetes están disponibles en CRAN (https://cran.r-project.org/web/packages/rstan/index.html)
 
 Ambas técnicas de estimación generan resultados similares. 
 
 ### Los análisis
 
-Una vez generadas las estimaciones de ideología para cada encuestado en cada encuesta, se procedió a filtrar a los encuestados según sus otras respuestas. Por ejemplo, en el caso del artículo $Polarization and Electoral Incentives$ el foco de interés es la adhesión o no a partidos políticos; en cambio en $La Fragilidad de los Consensos$ el análisis se focalizó en características sociodemográficas. 
+Una vez generadas las estimaciones de ideología para cada encuestado en cada encuesta, se procedió a filtrar a los encuestados según sus otras respuestas. Por ejemplo, en el caso del artículo $Polarization$ $and$ $Electoral$ $Incentives$ el foco de interés es la adhesión o no a partidos políticos; en cambio en $La$ $Fragilidad$ $de$ $los$ $Consensos$ el análisis se focalizó en características sociodemográficas. 
 
-
+Si tienes una consulta, comentario o sugerencia, por favor, escribir a jfabrega at udd dot cl
