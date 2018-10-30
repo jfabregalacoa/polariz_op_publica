@@ -62,8 +62,12 @@ En total se utilizadon cerca de 80.000 observaciones para estimar las posiciones
 
 Ambas técnicas de estimación generan resultados similares. 
 
-### Los análisis
+## Los análisis
 
-Una vez generadas las estimaciones de ideología para cada encuestado en cada encuesta, se procedió a filtrar a los encuestados según sus otras respuestas. Por ejemplo, en el caso del artículo $Polarization$ $and$ $Electoral$ $Incentives$ el foco de interés es la adhesión o no a partidos políticos; en cambio en $La$ $Fragilidad$ $de$ $los$ $Consensos$ el análisis se focalizó en características sociodemográficas. 
+Una vez generadas las estimaciones de ideología para cada encuestado en cada encuesta, se procedió a filtrar a los encuestados según sus otras respuestas. Por ejemplo, en el caso del artículo $Polarization$ $and$ $Electoral$ $Incentives$ el foco de interés es la adhesión o no a partidos políticos; en cambio en $La$ $Fragilidad$ $de$ $los$ $Consensos$ el análisis se focaliza en características sociodemográficas. 
+
+## Los resultados
+
+¿Qué hemos encontrado? Hemos encontrado evidencia de un proceso de polarización en marcha en la opinión pública chilena que comienza a producirse a mediados de la década del 2000 y se acentúa en los años subsiguientes 
 
 Si tienes una consulta, comentario o sugerencia, por favor, escribir a jfabrega at udd dot cl
