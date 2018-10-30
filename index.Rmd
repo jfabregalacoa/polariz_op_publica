@@ -4,7 +4,8 @@ author: "Jorge Fabrega, Jorge González y Jaime Lindh"
 date: "29 de octubre de 2018"
 output: 
 html_document:
-    theme: cerulean
+  tufte::tufte_handout: default
+  tufte::tufte_html: default
 ---
 
 ```{r setup, include=FALSE}
@@ -21,7 +22,7 @@ Chile experimentó una convergencia en la opinión publica desde el retorno a la
 
 La dinámica de la polarización en el Chile contemporáneo se resume en la siguiente figura que aparece en "Polarization and Electoral Incentives":
 
-![Polarización ideológica 1990-2014](ideologia_all_v4.png)
+![](ideologia_all_v4.png)
 
 ## Los datos
 
@@ -54,7 +55,7 @@ De acuerdo a la tabla, el encuestado 2 tienen la misma opinión respecto de los 
 
 ¿Cómo saber si las estimaciones tienen validez externa? Una forma de evaluar si son consistentes o no las estimaciones de ideología obtenidas para los encuestados es inferir las posiciones ideológicas que, a partir de sus evaluaciones, deberían tener los políticos evaluados. Ello porque las posturas relativas de los actores políticos si son de conocimiento público. Es decir, la estimación de las posturas ideológicas de los encuestados será razonable si en base a esas evaluaciones, los políticos de izquierda y centro izquierda son clasificados a la izquierda de los políticos de derecha y centro derecha. Los gráficos siguientes muestran ejemplos de las posiciones ideológicas de actores políticos estimadas a partir de estos supuestos en dos encuestas de la serie. Las posiciones relativas de los actores políticos son consistentes con lo que debería esperarse de acuerdo a sus posturas políticas. 
 
-![Ideología estimada ejemplos](fig2.png)
+![](fig2.png)
 
 ### La implementación práctica
 En total se utilizadon cerca de 80.000 observaciones para estimar las posiciones ideológicas. En el artículo $Polarization$ $and$ $Electoral$ $Incentives$ la estimación se realizó mediante el paquete $emIRT$ de R y en el caso de $La$ $Fragilidad$ $de$ $los$ $Consensos$ el análisis se realizó en base al paquete $basicspace$ de R. Ambos paquetes están disponibles en CRAN (https://cran.r-project.org/web/packages/rstan/index.html)
