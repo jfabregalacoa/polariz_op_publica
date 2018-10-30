@@ -3,7 +3,8 @@ title: "Polarización en la Opinión Pública Chilena 1990-2017"
 author: "Jorge Fabrega, Jorge González y Jaime Lindh"
 date: "29 de octubre de 2018"
 output: 
-tufte::tufte_html: default
+html_document:
+    theme: cerulean
 ---
 
 ```{r setup, include=FALSE}
