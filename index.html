@@ -150,7 +150,7 @@ $(document).ready(function () {
 <div id="el-metodo" class="section level2">
 <h2>El método</h2>
 <div id="la-intuicion-basica" class="section level3">
-<h3>La intuición básica</h3>
+<h3>- La intuición básica</h3>
 <p>El centro del análisis consiste en estimar la ideología latente que explicaría la distribución de las respuestas dadas por los encuestados. El supuesto fundamental en el que descansa la estimación es que, en promedio, las personas tienden a entregar mejores valoraciones de los actores políticos que tienen posiciones ideológicas más parecidas a las suyas (en relación a sus valoraciones de actores políticos con posturas ideológicas más alejadas a las suyas).</p>
 <p>Por ejemplo, supongamos que se le pide a tres encuestados A, B y C que evalúen a tres políticos X, Y y Z en una escala donde 1 significa “Evaluación muy positiva” y 5 significa “Evaluación muy negativa”. Supongamos que sus respuestas son las siguientes:</p>
 <table class="table" style="margin-left: auto; margin-right: auto;">
@@ -222,15 +222,21 @@ Encuestado C
 </div>
 </div>
 <div id="la-implementacion-practica" class="section level3">
-<h3>La implementación práctica</h3>
+<h3>- La implementación práctica</h3>
 <p>En total se utilizadon cerca de 80.000 observaciones para estimar las posiciones ideológicas. En el artículo <span class="math inline">\(Polarization\)</span> <span class="math inline">\(and\)</span> <span class="math inline">\(Electoral\)</span> <span class="math inline">\(Incentives\)</span> la estimación se realizó mediante el paquete <span class="math inline">\(emIRT\)</span> de R y en el caso de <span class="math inline">\(La\)</span> <span class="math inline">\(Fragilidad\)</span> <span class="math inline">\(de\)</span> <span class="math inline">\(los\)</span> <span class="math inline">\(Consensos\)</span> el análisis se realizó en base al paquete <span class="math inline">\(basicspace\)</span> de R. Ambos paquetes están disponibles en CRAN (<a href="https://cran.r-project.org/web/packages/rstan/index.html" class="uri">https://cran.r-project.org/web/packages/rstan/index.html</a>)</p>
 <p>Ambas técnicas de estimación generan resultados similares.</p>
 </div>
-<div id="los-analisis" class="section level3">
-<h3>Los análisis</h3>
-<p>Una vez generadas las estimaciones de ideología para cada encuestado en cada encuesta, se procedió a filtrar a los encuestados según sus otras respuestas. Por ejemplo, en el caso del artículo <span class="math inline">\(Polarization\)</span> <span class="math inline">\(and\)</span> <span class="math inline">\(Electoral\)</span> <span class="math inline">\(Incentives\)</span> el foco de interés es la adhesión o no a partidos políticos; en cambio en <span class="math inline">\(La\)</span> <span class="math inline">\(Fragilidad\)</span> <span class="math inline">\(de\)</span> <span class="math inline">\(los\)</span> <span class="math inline">\(Consensos\)</span> el análisis se focalizó en características sociodemográficas.</p>
-<p>Si tienes una consulta, comentario o sugerencia, por favor, escribir a jfabrega at udd dot cl</p>
 </div>
+<div id="los-analisis" class="section level2">
+<h2>Los análisis</h2>
+<p>Una vez generadas las estimaciones de ideología para cada encuestado en cada encuesta, se procedió a filtrar a los encuestados según sus otras respuestas. Por ejemplo, en el caso del artículo <span class="math inline">\(Polarization\)</span> <span class="math inline">\(and\)</span> <span class="math inline">\(Electoral\)</span> <span class="math inline">\(Incentives\)</span> el foco de interés es la adhesión o no a partidos políticos; en cambio en <span class="math inline">\(La\)</span> <span class="math inline">\(Fragilidad\)</span> <span class="math inline">\(de\)</span> <span class="math inline">\(los\)</span> <span class="math inline">\(Consensos\)</span> el análisis se focaliza en características sociodemográficas.</p>
+</div>
+<div id="los-resultados" class="section level2">
+<h2>Los resultados</h2>
+<p>¿Qué hemos encontrado? <em>Hemos encontrado evidencia de un proceso de polarización en marcha en la opinión pública chilena que comienza a producirse a mediados de la década del 2000 y se acentúa en los años subsiguientes</em>. En dicho proceso, las personas que dicen identificarse con partidos políticos de centro izquierda e izquierda se han desplazado hacia posiciones más de izquierda y los que dicen identificarse con partidos políticos de centro derecha y derecha se han desplazado más hacia la derecha. Al mismo tiempo, cada uno de estos grupos se ha vuelto más homogéneo. Por contraposición, el centro político se ha vaciado de personas con identificación política y el individuo mediano (en la mitad de la distribución) se ha desplazado paulatinamente hacia posiciones más a la derecha. Por otra parte, las principales diferencias entre grupos se observan a nivel socioeconómico, siendo las personas de más altos y más bajos ingresos los que más se polarizan. También se observa una divergencia entre generaciones, siendo la generación más joven ligeramente relativamente más de derecha que sus antecesoras.</p>
+<p><em>¿Qué pasa con el centro político?</em> Los datos muestran que el centro político se ha poblado de personas que manifiestan rechazo al sistema de partidos y que crecientemente declaran no votar. Todo ello contribuye a que los incentivos de los actores políticos por ir representar a esa población disminuya, acentuando el proceso de polarización.</p>
+<hr />
+<p>Si tienes una consulta, comentario o sugerencia, por favor, escribir a jfabrega at udd dot cl</p>
 </div>
 
 
