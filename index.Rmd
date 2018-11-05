@@ -12,6 +12,25 @@ html_document:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<style> 
+  #header { 
+    background: #2274cc; /* Old browsers */
+    background: -moz-linear-gradient(left, #2274cc 0%, #26c5d3 36%, #e03a3a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #2274cc 0%,#26c5d3 36%,#e03a3a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #2274cc 0%,#26c5d3 36%,#e03a3a 100%); /* W3C, IE10+, FF16+, Chrome26+,  Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2274cc', endColorstr='#e03a3a',GradientType=1 ); /* IE6-9 */
+    color: white;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1.title {
+    margin: auto;
+  }
+</style>
+
 ## Polarización en la Opinión Pública Chilena
 
 Chile experimentó una convergencia en la opinión publica desde el retorno a la democracia en 1990 hasta mediados de la década del 2000 en un período que algunos analistas denominan la "Democracia de los Consensos". Posteriormente, un proceso de sistemática polarización (tendencia a la agrupación de las preferencias ideológicas en polos opuestos) se ha instalado en la opinión pública. En esta página encontrará material complementario a dos artículos en los que hemos sintetizado nuestra investigación de este proceso social que sigue profundizándose en Chile. Los artículos son los siguientes:
