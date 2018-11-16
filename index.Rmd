@@ -1,6 +1,6 @@
 ---
 title: "Polarización en la Opinión Pública Chilena 1990-2017"
-author: "Jorge Fabrega, Jorge González y Jaime Lindh"
+author: "Jorge Fábrega, Jorge González y Jaime Lindh"
 date: "29 de octubre de 2018"
 output: 
 html_document:
@@ -91,5 +91,6 @@ Una vez generadas las estimaciones de ideología para cada encuestado en cada en
 
 *¿Qué pasa con el centro político?* Los datos muestran que el centro político se ha poblado de personas que manifiestan rechazo al sistema de partidos y que crecientemente declaran no votar. Todo ello contribuye a que los incentivos de los actores políticos por ir representar a esa población disminuya, acentuando el proceso de polarización.
 
----
+<hr color="blue" size=3>
+ 
 Si tienes una consulta, comentario o sugerencia, por favor, escribir a jfabrega at udd dot cl
